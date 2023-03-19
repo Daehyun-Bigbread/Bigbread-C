@@ -14,7 +14,6 @@ int main()
 {
 	int numbers[ARRAY_SIZE];
 	
-
 	inputNumbers(numbers, ARRAY_SIZE);
 	printf("average: %.3lf", computeAverage(numbers, ARRAY_SIZE));
 	// 마지막으로 inputNumbers 함수를 호출하여 값을 채운 다음 computeAverage 함수를 호출하여 배열에 있는 숫자의 평균을 계산.
