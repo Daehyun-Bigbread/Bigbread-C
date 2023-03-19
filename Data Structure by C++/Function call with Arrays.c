@@ -13,5 +13,4 @@ int main()
 	printf("average: %.3lf", computeAverage(numbers, ARRAY_SIZE));
 	
 	return 0;
-
 }
