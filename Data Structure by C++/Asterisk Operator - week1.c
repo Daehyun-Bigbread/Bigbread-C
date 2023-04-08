@@ -1,5 +1,7 @@
 // Dereference Operator
 // Return the value at the pointer address - 포인터 주소 값을 return 해준다.
+// %p - 변수의 주소값를 출력, %c - 변수의 문자를 출력
+
 #include <stdio.h>
 
 int main()
