@@ -6,9 +6,21 @@
 void inputNumbers(int num[], int len);
 // inputNumbers 함수는 int num 와 int len 이라는 두 가지 인수를 사용한다.
 // 사용자에게 int len의 값을 입력하라는 메시지가 표시되며, 이 정수는 ARRAY_SIZE 에 저장됩니다.
+{
+	int i;
+	for (i = 0; i < len; i++)
+		scanf("%d", &num[i]);
+}
 
 double computeAverage(int num[], int len);
 // computeAverage 함수는 nt num 와 int len의 두 가지 인수도 사용한다. ARRAY_SIZE 에 있는 숫자의 평균을 계산하고 이를 반환한다.
+{
+	int total = 0;
+	int i;
+	for(i = 0; i < len; i++)
+		total = total + num[i];
+	return total / (double)len;
+}
 
 int main()
 {
