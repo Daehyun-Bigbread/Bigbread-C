@@ -1,5 +1,6 @@
 // Reference Operator (변수의 주소를 가져올때 쓰는 기호)
 // Return the address of an variable
+// %p - 변수의 주소값를 출력, %c - 변수의 문자를 출력
 
 #include <stdio.h>
 
