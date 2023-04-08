@@ -20,7 +20,7 @@ double computeAverage(int num[], int len)
 {
 	int total = 0;
 	int i;
-	for(i = 0; i < len; i++) // 배열의 개수를 len 만큼 받아온다. 그리고 평균을 계산, 배열의 주소를 
+	for(i = 0; i < len; i++) // 배열의 개수를 len 만큼 받아온다. 그리고 평균을 계산, 배열을 돌려서 출력 한다. for & scanf
 		total = total + num[i];
 	return total / (double)len;
 }
