@@ -6,6 +6,7 @@ FILE * fopen ( const char *filename, const char *type); // file name, typeë¥¼ ì§
   type : access mode
 return a file stream pointer to the open file if succeed, or
   NULL (error: failed to open)
+
   
 // Access modes
 // r: Read Only
