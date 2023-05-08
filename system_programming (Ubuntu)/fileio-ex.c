@@ -29,7 +29,8 @@ int main( int argc, char *argv[])
   while(( c = getc( fpin)) != EOF) 
   putc( c, fpout);
            
-  fclose( fpin);
-  fclose( fpout);
+  fclose(fpin);
+  fclose(fpout);
   exit(0);
+  
 }
